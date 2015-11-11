@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA175D451BF311F0009F0ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D441BF311F0009F0ECB /* main.m */; };
+		EA175D481BF311F0009F0ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D471BF311F0009F0ECB /* AppDelegate.m */; };
+		EA175D4B1BF311F0009F0ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D4A1BF311F0009F0ECB /* ViewController.m */; };
+		EA175D4E1BF311F1009F0ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA175D4C1BF311F1009F0ECB /* Main.storyboard */; };
+		EA175D501BF311F1009F0ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA175D4F1BF311F1009F0ECB /* Assets.xcassets */; };
+		EA175D531BF311F1009F0ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA175D511BF311F1009F0ECB /* LaunchScreen.storyboard */; };
+		EA175D5E1BF311F1009F0ECB /* CoreDataPPTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D5D1BF311F1009F0ECB /* CoreDataPPTTests.m */; };
+		EA175D691BF311F1009F0ECB /* CoreDataPPTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D681BF311F1009F0ECB /* CoreDataPPTUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA175D5A1BF311F1009F0ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA175D381BF311F0009F0ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA175D3F1BF311F0009F0ECB;
+			remoteInfo = CoreDataPPT;
+		};
+		EA175D651BF311F1009F0ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA175D381BF311F0009F0ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA175D3F1BF311F0009F0ECB;
+			remoteInfo = CoreDataPPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA175D401BF311F0009F0ECB /* CoreDataPPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataPPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA175D441BF311F0009F0ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA175D461BF311F0009F0ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA175D471BF311F0009F0ECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA175D491BF311F0009F0ECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA175D4A1BF311F0009F0ECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA175D4D1BF311F1009F0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA175D4F1BF311F1009F0ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA175D521BF311F1009F0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA175D541BF311F1009F0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA175D591BF311F1009F0ECB /* CoreDataPPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA175D5D1BF311F1009F0ECB /* CoreDataPPTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataPPTTests.m; sourceTree = "<group>"; };
+		EA175D5F1BF311F1009F0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA175D641BF311F1009F0ECB /* CoreDataPPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA175D681BF311F1009F0ECB /* CoreDataPPTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataPPTUITests.m; sourceTree = "<group>"; };
+		EA175D6A1BF311F1009F0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA175D3D1BF311F0009F0ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA175D561BF311F1009F0ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA175D611BF311F1009F0ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA175D371BF311F0009F0ECB = {
+			isa = PBXGroup;
+			children = (
+				EA175D421BF311F0009F0ECB /* CoreDataPPT */,
+				EA175D5C1BF311F1009F0ECB /* CoreDataPPTTests */,
+				EA175D671BF311F1009F0ECB /* CoreDataPPTUITests */,
+				EA175D411BF311F0009F0ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA175D411BF311F0009F0ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA175D401BF311F0009F0ECB /* CoreDataPPT.app */,
+				EA175D591BF311F1009F0ECB /* CoreDataPPTTests.xctest */,
+				EA175D641BF311F1009F0ECB /* CoreDataPPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA175D421BF311F0009F0ECB /* CoreDataPPT */ = {
+			isa = PBXGroup;
+			children = (
+				EA175D461BF311F0009F0ECB /* AppDelegate.h */,
+				EA175D471BF311F0009F0ECB /* AppDelegate.m */,
+				EA175D491BF311F0009F0ECB /* ViewController.h */,
+				EA175D4A1BF311F0009F0ECB /* ViewController.m */,
+				EA175D4C1BF311F1009F0ECB /* Main.storyboard */,
+				EA175D4F1BF311F1009F0ECB /* Assets.xcassets */,
+				EA175D511BF311F1009F0ECB /* LaunchScreen.storyboard */,
+				EA175D541BF311F1009F0ECB /* Info.plist */,
+				EA175D431BF311F0009F0ECB /* Supporting Files */,
+			);
+			path = CoreDataPPT;
+			sourceTree = "<group>";
+		};
+		EA175D431BF311F0009F0ECB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA175D441BF311F0009F0ECB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA175D5C1BF311F1009F0ECB /* CoreDataPPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA175D5D1BF311F1009F0ECB /* CoreDataPPTTests.m */,
+				EA175D5F1BF311F1009F0ECB /* Info.plist */,
+			);
+			path = CoreDataPPTTests;
+			sourceTree = "<group>";
+		};
+		EA175D671BF311F1009F0ECB /* CoreDataPPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA175D681BF311F1009F0ECB /* CoreDataPPTUITests.m */,
+				EA175D6A1BF311F1009F0ECB /* Info.plist */,
+			);
+			path = CoreDataPPTUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA175D3F1BF311F0009F0ECB /* CoreDataPPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA175D6D1BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPT" */;
+			buildPhases = (
+				EA175D3C1BF311F0009F0ECB /* Sources */,
+				EA175D3D1BF311F0009F0ECB /* Frameworks */,
+				EA175D3E1BF311F0009F0ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreDataPPT;
+			productName = CoreDataPPT;
+			productReference = EA175D401BF311F0009F0ECB /* CoreDataPPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA175D581BF311F1009F0ECB /* CoreDataPPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA175D701BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPTTests" */;
+			buildPhases = (
+				EA175D551BF311F1009F0ECB /* Sources */,
+				EA175D561BF311F1009F0ECB /* Frameworks */,
+				EA175D571BF311F1009F0ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA175D5B1BF311F1009F0ECB /* PBXTargetDependency */,
+			);
+			name = CoreDataPPTTests;
+			productName = CoreDataPPTTests;
+			productReference = EA175D591BF311F1009F0ECB /* CoreDataPPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA175D631BF311F1009F0ECB /* CoreDataPPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA175D731BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPTUITests" */;
+			buildPhases = (
+				EA175D601BF311F1009F0ECB /* Sources */,
+				EA175D611BF311F1009F0ECB /* Frameworks */,
+				EA175D621BF311F1009F0ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA175D661BF311F1009F0ECB /* PBXTargetDependency */,
+			);
+			name = CoreDataPPTUITests;
+			productName = CoreDataPPTUITests;
+			productReference = EA175D641BF311F1009F0ECB /* CoreDataPPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA175D381BF311F0009F0ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = TY;
+				TargetAttributes = {
+					EA175D3F1BF311F0009F0ECB = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EA175D581BF311F1009F0ECB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA175D3F1BF311F0009F0ECB;
+					};
+					EA175D631BF311F1009F0ECB = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA175D3F1BF311F0009F0ECB;
+					};
+				};
+			};
+			buildConfigurationList = EA175D3B1BF311F0009F0ECB /* Build configuration list for PBXProject "CoreDataPPT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA175D371BF311F0009F0ECB;
+			productRefGroup = EA175D411BF311F0009F0ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA175D3F1BF311F0009F0ECB /* CoreDataPPT */,
+				EA175D581BF311F1009F0ECB /* CoreDataPPTTests */,
+				EA175D631BF311F1009F0ECB /* CoreDataPPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA175D3E1BF311F0009F0ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA175D531BF311F1009F0ECB /* LaunchScreen.storyboard in Resources */,
+				EA175D501BF311F1009F0ECB /* Assets.xcassets in Resources */,
+				EA175D4E1BF311F1009F0ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA175D571BF311F1009F0ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA175D621BF311F1009F0ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA175D3C1BF311F0009F0ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA175D4B1BF311F0009F0ECB /* ViewController.m in Sources */,
+				EA175D481BF311F0009F0ECB /* AppDelegate.m in Sources */,
+				EA175D451BF311F0009F0ECB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA175D551BF311F1009F0ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA175D5E1BF311F1009F0ECB /* CoreDataPPTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA175D601BF311F1009F0ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA175D691BF311F1009F0ECB /* CoreDataPPTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA175D5B1BF311F1009F0ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA175D3F1BF311F0009F0ECB /* CoreDataPPT */;
+			targetProxy = EA175D5A1BF311F1009F0ECB /* PBXContainerItemProxy */;
+		};
+		EA175D661BF311F1009F0ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA175D3F1BF311F0009F0ECB /* CoreDataPPT */;
+			targetProxy = EA175D651BF311F1009F0ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA175D4C1BF311F1009F0ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA175D4D1BF311F1009F0ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA175D511BF311F1009F0ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA175D521BF311F1009F0ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA175D6B1BF311F1009F0ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA175D6C1BF311F1009F0ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA175D6E1BF311F1009F0ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreDataPPT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuoJJ.CoreDataPPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA175D6F1BF311F1009F0ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreDataPPT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuoJJ.CoreDataPPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA175D711BF311F1009F0ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreDataPPTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuoJJ.CoreDataPPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataPPT.app/CoreDataPPT";
+			};
+			name = Debug;
+		};
+		EA175D721BF311F1009F0ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CoreDataPPTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuoJJ.CoreDataPPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreDataPPT.app/CoreDataPPT";
+			};
+			name = Release;
+		};
+		EA175D741BF311F1009F0ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreDataPPTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuoJJ.CoreDataPPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreDataPPT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA175D751BF311F1009F0ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CoreDataPPTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GuoJJ.CoreDataPPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CoreDataPPT;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA175D3B1BF311F0009F0ECB /* Build configuration list for PBXProject "CoreDataPPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA175D6B1BF311F1009F0ECB /* Debug */,
+				EA175D6C1BF311F1009F0ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA175D6D1BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA175D6E1BF311F1009F0ECB /* Debug */,
+				EA175D6F1BF311F1009F0ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA175D701BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA175D711BF311F1009F0ECB /* Debug */,
+				EA175D721BF311F1009F0ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA175D731BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA175D741BF311F1009F0ECB /* Debug */,
+				EA175D751BF311F1009F0ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA175D381BF311F0009F0ECB /* Project object */;
+}

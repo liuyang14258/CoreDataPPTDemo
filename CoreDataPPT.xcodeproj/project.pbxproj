@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		EA175D451BF311F0009F0ECB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D441BF311F0009F0ECB /* main.m */; };
 		EA175D481BF311F0009F0ECB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D471BF311F0009F0ECB /* AppDelegate.m */; };
-		EA175D4B1BF311F0009F0ECB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D4A1BF311F0009F0ECB /* ViewController.m */; };
 		EA175D4E1BF311F1009F0ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA175D4C1BF311F1009F0ECB /* Main.storyboard */; };
 		EA175D501BF311F1009F0ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA175D4F1BF311F1009F0ECB /* Assets.xcassets */; };
 		EA175D531BF311F1009F0ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA175D511BF311F1009F0ECB /* LaunchScreen.storyboard */; };
 		EA175D5E1BF311F1009F0ECB /* CoreDataPPTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D5D1BF311F1009F0ECB /* CoreDataPPTTests.m */; };
 		EA175D691BF311F1009F0ECB /* CoreDataPPTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D681BF311F1009F0ECB /* CoreDataPPTUITests.m */; };
+		EA175D7B1BF312FD009F0ECB /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D7A1BF312FD009F0ECB /* TableViewController.m */; };
+		EA175D7E1BF314B3009F0ECB /* DataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D7D1BF314B3009F0ECB /* DataBaseManager.m */; };
+		EA175D8A1BF32DA5009F0ECB /* CoreDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = EA175D891BF32DA5009F0ECB /* CoreDataProvider.m */; };
+		EA1BCA451C22B7C000B9AFA7 /* Entity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BCA421C22B7C000B9AFA7 /* Entity+CoreDataProperties.m */; };
+		EA1BCA461C22B7C000B9AFA7 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1BCA441C22B7C000B9AFA7 /* Entity.m */; };
+		EACFEFEA1BF4390D003E89FC /* CoreDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EACFEFE81BF4390D003E89FC /* CoreDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		EA175D441BF311F0009F0ECB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA175D461BF311F0009F0ECB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA175D471BF311F0009F0ECB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EA175D491BF311F0009F0ECB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EA175D4A1BF311F0009F0ECB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EA175D4D1BF311F1009F0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA175D4F1BF311F1009F0ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA175D521BF311F1009F0ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,19 @@
 		EA175D641BF311F1009F0ECB /* CoreDataPPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataPPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA175D681BF311F1009F0ECB /* CoreDataPPTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataPPTUITests.m; sourceTree = "<group>"; };
 		EA175D6A1BF311F1009F0ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA175D791BF312FD009F0ECB /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EA175D7A1BF312FD009F0ECB /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EA175D7C1BF314B3009F0ECB /* DataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBaseManager.h; sourceTree = "<group>"; };
+		EA175D7D1BF314B3009F0ECB /* DataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBaseManager.m; sourceTree = "<group>"; };
+		EA175D881BF32DA5009F0ECB /* CoreDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataProvider.h; sourceTree = "<group>"; };
+		EA175D891BF32DA5009F0ECB /* CoreDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataProvider.m; sourceTree = "<group>"; };
+		EA1BCA3A1C22B58400B9AFA7 /* CoreDataModel 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataModel 2.xcdatamodel"; sourceTree = "<group>"; };
+		EA1BCA411C22B7C000B9AFA7 /* Entity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Entity+CoreDataProperties.h"; path = "CoreDataPPT/Entity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		EA1BCA421C22B7C000B9AFA7 /* Entity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Entity+CoreDataProperties.m"; path = "CoreDataPPT/Entity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		EA1BCA431C22B7C000B9AFA7 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Entity.h; path = CoreDataPPT/Entity.h; sourceTree = "<group>"; };
+		EA1BCA441C22B7C000B9AFA7 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Entity.m; path = CoreDataPPT/Entity.m; sourceTree = "<group>"; };
+		EA1BCA471C22B80D00B9AFA7 /* CoreDataModel 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataModel 3.xcdatamodel"; sourceTree = "<group>"; };
+		EACFEFE91BF4390D003E89FC /* CoreDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,10 @@
 		EA175D371BF311F0009F0ECB = {
 			isa = PBXGroup;
 			children = (
+				EA1BCA411C22B7C000B9AFA7 /* Entity+CoreDataProperties.h */,
+				EA1BCA421C22B7C000B9AFA7 /* Entity+CoreDataProperties.m */,
+				EA1BCA431C22B7C000B9AFA7 /* Entity.h */,
+				EA1BCA441C22B7C000B9AFA7 /* Entity.m */,
 				EA175D421BF311F0009F0ECB /* CoreDataPPT */,
 				EA175D5C1BF311F1009F0ECB /* CoreDataPPTTests */,
 				EA175D671BF311F1009F0ECB /* CoreDataPPTUITests */,
@@ -103,9 +123,14 @@
 			children = (
 				EA175D461BF311F0009F0ECB /* AppDelegate.h */,
 				EA175D471BF311F0009F0ECB /* AppDelegate.m */,
-				EA175D491BF311F0009F0ECB /* ViewController.h */,
-				EA175D4A1BF311F0009F0ECB /* ViewController.m */,
+				EA175D791BF312FD009F0ECB /* TableViewController.h */,
+				EA175D7A1BF312FD009F0ECB /* TableViewController.m */,
+				EA175D7C1BF314B3009F0ECB /* DataBaseManager.h */,
+				EA175D7D1BF314B3009F0ECB /* DataBaseManager.m */,
+				EA175D881BF32DA5009F0ECB /* CoreDataProvider.h */,
+				EA175D891BF32DA5009F0ECB /* CoreDataProvider.m */,
 				EA175D4C1BF311F1009F0ECB /* Main.storyboard */,
+				EACFEFE81BF4390D003E89FC /* CoreDataModel.xcdatamodeld */,
 				EA175D4F1BF311F1009F0ECB /* Assets.xcassets */,
 				EA175D511BF311F1009F0ECB /* LaunchScreen.storyboard */,
 				EA175D541BF311F1009F0ECB /* Info.plist */,
@@ -270,9 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA175D4B1BF311F0009F0ECB /* ViewController.m in Sources */,
+				EA175D7E1BF314B3009F0ECB /* DataBaseManager.m in Sources */,
 				EA175D481BF311F0009F0ECB /* AppDelegate.m in Sources */,
+				EACFEFEA1BF4390D003E89FC /* CoreDataModel.xcdatamodeld in Sources */,
+				EA175D8A1BF32DA5009F0ECB /* CoreDataProvider.m in Sources */,
 				EA175D451BF311F0009F0ECB /* main.m in Sources */,
+				EA175D7B1BF312FD009F0ECB /* TableViewController.m in Sources */,
+				EA1BCA461C22B7C000B9AFA7 /* Entity.m in Sources */,
+				EA1BCA451C22B7C000B9AFA7 /* Entity+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +526,7 @@
 				EA175D6F1BF311F1009F0ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA175D701BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPTTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +535,7 @@
 				EA175D721BF311F1009F0ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA175D731BF311F1009F0ECB /* Build configuration list for PBXNativeTarget "CoreDataPPTUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,8 +544,24 @@
 				EA175D751BF311F1009F0ECB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EACFEFE81BF4390D003E89FC /* CoreDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EA1BCA471C22B80D00B9AFA7 /* CoreDataModel 3.xcdatamodel */,
+				EA1BCA3A1C22B58400B9AFA7 /* CoreDataModel 2.xcdatamodel */,
+				EACFEFE91BF4390D003E89FC /* CoreDataModel.xcdatamodel */,
+			);
+			currentVersion = EACFEFE91BF4390D003E89FC /* CoreDataModel.xcdatamodel */;
+			path = CoreDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EA175D381BF311F0009F0ECB /* Project object */;
 }
